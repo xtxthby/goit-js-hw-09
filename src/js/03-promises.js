@@ -14,7 +14,7 @@ function onFormSubmit(e) {
 
   for (let i = 1; i <= amountInput; i += 1) {
     createPromise(i, firstInput);
-    firstInput+= stepInput;
+    firstInput += stepInput;
   };
 }
 
